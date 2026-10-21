@@ -12,6 +12,8 @@ Research code and experiment summaries for training-free multimodal industrial a
 - `PADA/`, `sam2-main/`, `qwen-vl-finetune/`, `qwen-vl-utils/`, and related directories: supporting source code. See retained upstream license files.
 - `third_party_licenses/`: license text for upstream materials whose original top-level README/license files were not project-root files.
 
+Jupyter notebooks are included as code-only notebooks; saved cell outputs and embedded attachments were removed so generated data or media are not accidentally published.
+
 ## Data and model weights
 
 Raw datasets and model weights are not stored in this public repository. Empty placeholder folders marked with `.gitkeep` preserve the expected names. Download each dataset/model from its official source and place it in the corresponding directory before running scripts. Do not commit dataset images, checkpoints, or generated run directories.
