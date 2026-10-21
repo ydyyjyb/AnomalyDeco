@@ -1,0 +1,269 @@
+{
+  "aligned_models": [
+    "Qwen3-VL-4B",
+    "Qwen2-VL-2B",
+    "Qwen2-VL-7B",
+    "LLaVA-OV-0.5B",
+    "LLaVA-OV-7B"
+  ],
+  "source_rows": {
+    "Qwen3-VL-4B": 1000,
+    "Qwen2-VL-2B": 1000,
+    "Qwen2-VL-7B": 1000,
+    "LLaVA-OV-0.5B": 1000,
+    "LLaVA-OV-7B": 1000
+  },
+  "common_complete_images": 976,
+  "excluded_images": 24,
+  "per_model_output_failures": {
+    "Qwen3-VL-4B": {
+      "images_with_any_failure": 0,
+      "failed_or_truncated_questions": 0,
+      "truncated_questions": 0,
+      "empty_questions": 0
+    },
+    "Qwen2-VL-2B": {
+      "images_with_any_failure": 5,
+      "failed_or_truncated_questions": 5,
+      "truncated_questions": 5,
+      "empty_questions": 0
+    },
+    "Qwen2-VL-7B": {
+      "images_with_any_failure": 0,
+      "failed_or_truncated_questions": 0,
+      "truncated_questions": 0,
+      "empty_questions": 0
+    },
+    "LLaVA-OV-0.5B": {
+      "images_with_any_failure": 10,
+      "failed_or_truncated_questions": 10,
+      "truncated_questions": 5,
+      "empty_questions": 5
+    },
+    "LLaVA-OV-7B": {
+      "images_with_any_failure": 9,
+      "failed_or_truncated_questions": 9,
+      "truncated_questions": 1,
+      "empty_questions": 8
+    }
+  },
+  "excluded": [
+    {
+      "index": "00000033",
+      "image": "VisA/candle/Data/Images/Anomaly/033.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000050",
+      "image": "VisA/candle/Data/Images/Anomaly/050.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000098",
+      "image": "VisA/candle/Data/Images/Anomaly/098.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000103",
+      "image": "VisA/capsules/Data/Images/Anomaly/003.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000158",
+      "image": "VisA/capsules/Data/Images/Anomaly/058.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000171",
+      "image": "VisA/capsules/Data/Images/Anomaly/071.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000193",
+      "image": "VisA/capsules/Data/Images/Anomaly/093.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000202",
+      "image": "VisA/cashew/Data/Images/Anomaly/002.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000254",
+      "image": "VisA/cashew/Data/Images/Anomaly/054.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000359",
+      "image": "VisA/chewinggum/Data/Images/Anomaly/059.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000370",
+      "image": "VisA/chewinggum/Data/Images/Anomaly/070.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000601",
+      "image": "VisA/macaroni2/Data/Images/Anomaly/001.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          2
+        ]
+      }
+    },
+    {
+      "index": "00000624",
+      "image": "VisA/macaroni2/Data/Images/Anomaly/024.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          2
+        ]
+      }
+    },
+    {
+      "index": "00000677",
+      "image": "VisA/macaroni2/Data/Images/Anomaly/077.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000714",
+      "image": "VisA/pcb1/Data/Images/Anomaly/014.JPG",
+      "failures": {
+        "Qwen2-VL-2B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000730",
+      "image": "VisA/pcb1/Data/Images/Anomaly/030.JPG",
+      "failures": {
+        "Qwen2-VL-2B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000740",
+      "image": "VisA/pcb1/Data/Images/Anomaly/040.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000768",
+      "image": "VisA/pcb1/Data/Images/Anomaly/068.JPG",
+      "failures": {
+        "Qwen2-VL-2B": [
+          3
+        ]
+      }
+    },
+    {
+      "index": "00000906",
+      "image": "VisA/pcb3/Data/Images/Anomaly/006.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          1
+        ]
+      }
+    },
+    {
+      "index": "00000920",
+      "image": "VisA/pcb3/Data/Images/Anomaly/020.JPG",
+      "failures": {
+        "LLaVA-OV-0.5B": [
+          2
+        ]
+      }
+    },
+    {
+      "index": "00000964",
+      "image": "VisA/pcb3/Data/Images/Anomaly/064.JPG",
+      "failures": {
+        "Qwen2-VL-2B": [
+          0
+        ]
+      }
+    },
+    {
+      "index": "00000967",
+      "image": "VisA/pcb3/Data/Images/Anomaly/067.JPG",
+      "failures": {
+        "Qwen2-VL-2B": [
+          0
+        ]
+      }
+    },
+    {
+      "index": "00001132",
+      "image": "VisA/pipe_fryum/Data/Images/Anomaly/032.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          2
+        ]
+      }
+    },
+    {
+      "index": "00001158",
+      "image": "VisA/pipe_fryum/Data/Images/Anomaly/058.JPG",
+      "failures": {
+        "LLaVA-OV-7B": [
+          1
+        ]
+      }
+    }
+  ],
+  "selection_rule": "paired intersection; exclude an image if any model has any empty or max_new_tokens-truncated answer"
+}

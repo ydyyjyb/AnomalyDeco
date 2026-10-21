@@ -8,7 +8,7 @@ Research code and experiment summaries for training-free multimodal industrial a
 - `scripts/`: reproducible evaluation, analysis, validation, and export scripts.
 - `JUDO_scripts/`: JUDO-style evaluation scripts used in this project.
 - `evaluation/`: dataset loaders and benchmark setup. Dataset payloads are intentionally not included; placeholder directories preserve expected paths.
-- `results/`: aggregate tables for the main method, VisA-D&R, and prior comparisons. Detailed outputs for the current DeepSeek evaluation will be added after it completes.
+- `results/`: aggregate tables for the main method, VisA-D&R, prior comparisons, and the DeepSeek quality-dimension evaluation (including per-image judgments and stage outputs).
 - `PADA/`, `sam2-main/`, `qwen-vl-finetune/`, `qwen-vl-utils/`, and related directories: supporting source code. See retained upstream license files.
 - `third_party_licenses/`: license text for upstream materials whose original top-level README/license files were not project-root files.
 

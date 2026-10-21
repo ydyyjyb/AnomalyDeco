@@ -1,0 +1,8 @@
+{
+  "selected_common_complete_images": 976,
+  "valid_judgment_images": 936,
+  "judge_parse_failures": 40,
+  "bootstrap_samples": 1000,
+  "confidence_interval": "stratified paired bootstrap by category, percentile 95% CI",
+  "excluded_candidate_failure_images": 24
+}

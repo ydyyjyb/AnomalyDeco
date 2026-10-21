@@ -1,0 +1,12 @@
+{
+  "provider": "DeepSeek API",
+  "model_requested": "deepseek-flash",
+  "request_count": 2955,
+  "prompt_tokens": 3752620,
+  "completion_tokens": 1402191,
+  "total_tokens": 5154811,
+  "cached_prompt_tokens": 995071,
+  "sum_request_seconds": 5996.426,
+  "currency_cost": null,
+  "cost_note": "Use the actual DeepSeek invoice/pricing tier; token counts are retained here and may be subject to image-token billing and cache pricing."
+}

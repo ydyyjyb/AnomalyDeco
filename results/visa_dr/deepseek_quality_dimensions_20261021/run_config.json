@@ -1,0 +1,40 @@
+{
+  "predictions": {
+    "Qwen3-VL-4B": "visa_dr_reasoning_paper_ready_banbang_full_20260909_154349/qwen3_original/reasoning_predictions.jsonl (source run; not bundled)",
+    "Qwen2-VL-2B": "qwen2vl_paper_official_dataset_20260901_023412/visa_dr_qwen2vl-2b_official_dataset/reasoning_predictions.jsonl (source run; not bundled)",
+    "Qwen2-VL-7B": "qwen2vl_paper_official_dataset_20260901_023412/visa_dr_qwen2vl-7b_official_dataset/reasoning_predictions.jsonl (source run; not bundled)",
+    "LLaVA-OV-0.5B": "visa_dr_open_models_20261016/llava_ov_0_5b/reasoning_predictions.jsonl (source run; not bundled)",
+    "LLaVA-OV-7B": "visa_dr_open_models_20261016/llava_ov_7b/reasoning_predictions.jsonl (source run; not bundled)"
+  },
+  "judge_backend": "deepseek-api",
+  "judge_model": "deepseek-flash",
+  "judge_revision": null,
+  "judge_dtype": null,
+  "judge_quantization": null,
+  "api_base_url": "https://api.deepseek.com",
+  "api_key_source": "DEEPSEEK_API_KEY environment variable",
+  "api_temperature": 0,
+  "api_reasoning_effort": "none",
+  "api_response_format": "json_object",
+  "api_concurrency": 3,
+  "judge_decoding": {
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "max_tokens_initial": 3072
+  },
+  "judge_max_tokens_retry_schedule": [
+    3072,
+    6144
+  ],
+  "image_max_side": 1024,
+  "image_dynamic_tiles": 12,
+  "seed": 20261020,
+  "limit": 0,
+  "metrics": [
+    "reference defect fact P/R/F1 with deterministic one-to-one slot matching",
+    "image claim support/refutation/uncertainty",
+    "anomaly-rationale/cause-plausibility/prevention-actionability rubric scores"
+  ],
+  "blinding": "candidate labels randomly permuted deterministically per image; model identities withheld from judge",
+  "candidate_evaluation": "reference facts are extracted in a reference-only call; candidate facts and rubric are extracted in a candidate-only text call; image grounding is a separate image+candidate-only call. Raw references and candidate answers are never jointly shown during fact extraction. Evidence quotes are checked against the exact source answer. Fact matching is deterministic token-F1 with fixed slot thresholds and a fixed synonym list."
+}
