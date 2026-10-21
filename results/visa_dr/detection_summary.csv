@@ -1,0 +1,5 @@
+model,source_run,metric_scope,samples,num_classes,ACC,Precision,Recall,F1,comparability_note
+Qwen3-VL-4B,visa_dr_reasoning_official_fixed_20260827_030722,class_macro_table4_aligned,1761,10,0.847945,0.905328,0.814000,0.854522,HDEC-based classification summary from the official fixed run
+Qwen3-VL-4B+DeCo,visa_dr_reasoning_deco_full_20260828_024803,class_macro_table4_aligned,1761,10,0.847945,0.905328,0.814000,0.854522,HDEC-based classification summary from the DeCo full run
+Qwen2-VL-2B,qwen2vl_paper_official_dataset_20260901_023412/visa_dr_qwen2vl-2b_official_dataset,reported aggregate,1761,10,0.622753,0.888100,0.508000,0.560341,Hard QA classification output; protocol differs from HDEC rows
+Qwen2-VL-7B,qwen2vl_paper_official_dataset_20260901_023412/visa_dr_qwen2vl-7b_official_dataset,reported aggregate,1761,10,0.770054,0.899988,0.709000,0.757791,Hard QA classification output; protocol differs from HDEC rows

@@ -1,0 +1,42 @@
+# Secrets and local credentials
+.env
+.env.*
+*.key
+secrets.*
+
+# Dataset placeholders contain their own .gitignore; never commit dataset payloads.
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+
+# Weight placeholder directories contain their own .gitignore.
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.onnx
+*.npy
+*.npz
+
+# Runtime state, caches, and logs
+**/runs/
+**/outputs/
+**/logs/
+**/__pycache__/
+*.py[cod]
+*.log
+*.out
+*.tmp
+
+# Archives and editor state
+*.zip
+*.tar
+*.tar.gz
+*.7z
+.vscode/
+.idea/
