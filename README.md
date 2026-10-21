@@ -1,1 +1,1 @@
-# YOLO-Industrial-Vision
+# AnomalyDeco
